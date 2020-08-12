@@ -1,11 +1,11 @@
 /*
 Gerando numeros primos recursivamente
 */
-
+var primes = [];
 
 
 function gerandoprimos(start,end){
-if(isprime(start,start)) console.log(start);  
+if(isprime(start,start)) primes.push(start); 
 if(start==end) return;
 return gerandoprimos(start+1,end);
 }
