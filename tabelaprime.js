@@ -13,7 +13,7 @@ for(var i=0; i<primes.length; i++){ //percorrendo o vetor gerado
   
 if(!i){ //essa condicao verifica se está no inicio do for
 u+='<tr>';
-for(var j=1; j<=n; j++) u+='<th>'+j+'</th>';
+for(var j=0; j<=n; j++) u+='<th>'+j+'</th>';
 u+='</tr>';  
 }
 if(!(i%n)) {
