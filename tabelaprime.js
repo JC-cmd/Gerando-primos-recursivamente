@@ -18,7 +18,7 @@ u+='</tr>';
 }
   
 if(!(i%n)) {
-u+='<tr><td>'+(parseInt(i/n)*n+1) /*parseInt(i/n) devolve o numero da linha na tabela*/+' | '+((parseInt(i/n)+1)*n)+'</td>';
+u+='<tr><td>'+(parseInt(i/n)*n+1) /*parseInt(i/n) devolve o numero da linha na tabela*/+'-'+((parseInt(i/n)+1)*n)+'</td>';
 } 
   
 u+='<td>'+primes[i]+'</td>';
