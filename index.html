@@ -1,0 +1,34 @@
+<!--
+Exibindo tabela com numeros primos
+-->
+<html>
+<head>
+  <title>Gerando Primos</title>
+  </head>
+<script src="primos.js"></script>
+<script src="tabelaprime.js"></script>
+<script>
+document.write(gerar_tabela(20,1000));
+</script>
+<style>
+  
+td,th{
+border: 1px solid rgba(0,0,0,0.4);
+padding: 5px;
+text-align: center;
+font-family: Arial;
+border-radius: 3px;
+}
+
+  .linha_destaque{
+background-color: rgba(0,0,0,0.1);
+}
+
+</style>
+<body>
+  <p>Escolha a opção:</p>
+  <button>Gerar Lista de Primos</button>
+  <button>Encontrar o número primo em uma posição</button>
+  <button>Testar se um número é primo</button>
+</body>
+</html>

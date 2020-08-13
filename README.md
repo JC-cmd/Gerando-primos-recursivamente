@@ -1,2 +1,2 @@
 # solucoes
-Soluções para problemas recorrentes em programação
+Gerando números primos recursivamente
